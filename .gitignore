@@ -1,0 +1,28 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and generated output
+node_modules/
+output/
+coverage/
+dist/
+
+# Local logs and package-manager state
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.npmrc
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx

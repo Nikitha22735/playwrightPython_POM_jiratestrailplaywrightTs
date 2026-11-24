@@ -1,0 +1,14 @@
+
+{
+  "servers": {
+    "jira-testcase-tools": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "jira_mcp_server.js"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}

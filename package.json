@@ -1,0 +1,19 @@
+{
+  "name": "jira-copilot-testcase-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node jira_mcp_server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "zod": "^3.25.0"
+  }
+}
